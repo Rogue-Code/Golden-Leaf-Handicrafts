@@ -231,9 +231,7 @@ nav ul li a:hover{
 
 @media(max-width:900px){
 
-    *{
-        border:1px solid black; 
-    }
+    
     
     nav{
         display:none;
