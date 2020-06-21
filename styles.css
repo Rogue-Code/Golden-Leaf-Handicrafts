@@ -193,6 +193,7 @@ nav ul li a:hover{
 
 .about-us h1{
     text-align: center;
+    border-bottom: 5px solid #aa675d;
 }
 
 .text-container{
@@ -355,5 +356,12 @@ footer{
        font-size:1.5rem;
        padding: 0;
    }
+
+  .categories ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap:1.5rem;
+}
 
 }
