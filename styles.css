@@ -147,12 +147,21 @@ nav ul li a:hover{
 
 .products{
     margin-top:2rem;
+    position: relative;
+}
+
+.sticky-sidebar{
+    position: sticky;
+    top:50%
+}
+
+#sticky-arrow{
+    color:#aa675d;
 }
 
 .item-card{
     box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
     background-color: #f5f5f5;
-    position: relative;
 }
 
 
