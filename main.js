@@ -16,6 +16,13 @@ function handleClick(event) {
     event.target.classList.add("active")
     const prevShow = document.querySelector(".product-item.active")
     const newShow = document.querySelector(`.${event.target.textContent}`)
+    const innerList = newShow.children
+    const inner = innerList[0]
+    if(inner.children.length % 2 === 0){
+        inner.style.gridTemplateColumns = "repeat(2,1fr)"
+    }
+    prevShow.classList.remove('active')
+    newShow.classList.add('active')
     prevShow.classList.remove('active')
     newShow.classList.add('active')
 }
