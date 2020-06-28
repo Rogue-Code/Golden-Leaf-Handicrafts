@@ -105,7 +105,11 @@ a.nav-link:hover {
 }
 
 .product-categorie.active{
-    border-bottom: 5px solid #aa675d;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 2px;
+    background-color: #aa675d;
+    color: white;
 }
 
 .products{
@@ -151,7 +155,7 @@ a.nav-link:hover {
     font-size: 1.5rem;
 }
 
-.fur-curtains,.pearl-curtains,.shoes,.puja-articles,.shubh-labh,.latkan,.toran,.rangoli{
+.fur-curtains,.pearl-curtains,.shoes,.pooja-articles,.shubh-labh,.latkan,.toran,.rangoli{
     display:none;
 }
 
