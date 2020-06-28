@@ -3,6 +3,12 @@ productCategories.forEach((element) => {
     element.addEventListener('click',handleClick)
 })
 
+const itemCards = document.querySelectorAll(".item-card");
+itemCards.forEach((element) => {
+    element.addEventListener('click', ()=> {
+        location.href = "https://api.whatsapp.com/send?phone=919869729680";
+    })
+})
 const questions = document.querySelectorAll(".text-container")
 const quesArr = Array.from(questions)
 const ques = quesArr.filter((element) => !element.classList.contains("text-box"))
