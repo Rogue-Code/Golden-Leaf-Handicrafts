@@ -34,6 +34,10 @@ a.nav-link:hover {
     .showcase-text h2 {
         padding-top: 100px;
     }
+
+    .showcase-text h3 {
+        font-size: 1em;
+    }
 }
 
 
