@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Josefin Sans",sans-serif;
+}
+
 li{
     list-style: none;
 }
@@ -40,7 +44,67 @@ a.nav-link:hover {
     }
 }
 
+/********************************Swiper - Top products********************/
+.swiper-container {
+    width: 100%;
+    height: 380px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
 
+.swiper-slide {
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+/*experimental*/
+.swiper-container .swiper-slide .imgBx {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-container .swiper-slide .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-container .swiper-slide .content {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100px;
+}
+/*end of experiment*/
+
+.swiper-slide .content h2 {
+    font-size: 1.2em;
+}
+
+.swiper-slide .content h2 {
+    font-size: 1em;
+}
+
+.imgBx img {
+    width: 100%;
+    height: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+    .swiper-container {
+        width: 300px;
+        height: 320px;
+    }
+}
+
+/*******************************end of swiper ********************/
 .A{
     display:flex;
     justify-content: space-around;
@@ -62,7 +126,6 @@ a.nav-link:hover {
 
 .showcase-text p{
     color:#34394b;
-    font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     margin-top:3rem;
   
@@ -106,7 +169,6 @@ a.nav-link:hover {
     text-align: center;
     grid-gap:1rem;
     color:#34394b;
-    font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
 }
 
@@ -164,7 +226,7 @@ a.nav-link:hover {
 .item-card h2,p{
     text-align: center;
     color:#34394b;
-    font-family: 'Oswald', sans-serif;
+/*    font-family: 'Oswald', sans-serif;*/
     font-size: 1.5rem;
 }
 
@@ -193,7 +255,7 @@ a.nav-link:hover {
 
 .question{
     color:#34394b;
-    font-family: 'Oswald', sans-serif;
+/*    font-family: 'Oswald', sans-serif;*/
     font-size:3rem;
     text-transform: capitalize;
     padding:0 2rem;
@@ -259,7 +321,7 @@ footer{
     
     .showcase-text p{
         color:#34394b;
-        font-family: 'Oswald', sans-serif;
+/*        font-family: 'Oswald', sans-serif;*/
         font-size: 1.5rem;
         margin-top:2rem;
       
@@ -285,7 +347,7 @@ footer{
     .item-card h2,p{
         text-align: center;
         color:#34394b;
-        font-family: 'Oswald', sans-serif;
+/*        font-family: 'Oswald', sans-serif;*/
         font-size: 1rem;
     }
 

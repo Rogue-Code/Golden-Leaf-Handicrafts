@@ -1,3 +1,8 @@
+// Pulling all buy buttons down
+// var buyBtn = document.querySelectorAll(".item-card > p");
+// buyBtn.style.backgroundColor = 'blue'; 
+
+
 const productCategories = document.querySelectorAll(".product-categorie")
 productCategories.forEach((element) => {
     element.addEventListener('click',handleClick)
@@ -6,7 +11,7 @@ productCategories.forEach((element) => {
 const itemCards = document.querySelectorAll(".item-card");
 itemCards.forEach((element) => {
     element.addEventListener('click', ()=> {
-        location.href = "https://api.whatsapp.com/send?phone=919869729680";
+        location.href = "https://api.whatsapp.com/send?phone=919082736582";
     })
 })
 const questions = document.querySelectorAll(".text-container")
